@@ -15,6 +15,4 @@ func CreateClient(dbNo int) *redis.Client{
 		DB: dbNo,
 	})
 	return client
-	
-	
 }

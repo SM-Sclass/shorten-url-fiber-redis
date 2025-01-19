@@ -6,7 +6,8 @@ import (
 	"os"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	"github.com/joho/fiber/gotdotenv"
+	"github.com/joho/godotenv"
+	"github.com/SM-Sclass/shorten-url-fiber-redis/routes"
 
 )
 
